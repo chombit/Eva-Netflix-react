@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 2rem;
+  background-color: #141414;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header__logo {
+  width: 100px;
+}
+
+.header__nav a {
+  margin-left: 5rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  gap : 2rem;
+}
+
+.header__nav a:hover {
+  color: #e50914;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header__icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.header__avatar {
+  width: 32px;
+  border-radius: 4px;
+  cursor: pointer;
+}
