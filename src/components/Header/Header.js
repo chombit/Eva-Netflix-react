@@ -1,6 +1,9 @@
 import React from "react";
 import "./header.css";
-import { FaSearch, FaUser } from "react-icons/fa";
+import SearchIcon from '@mui/icons-material/Search';
+import NotificationsIcon from '@mui/icons-material/Notifications';
+import ArrowDownIcon from '@mui/icons-material/ArrowDropDown';
+import UserIcon from '@mui/icons-material/AccountCircle';
 
 const Header = () => {
   return (
@@ -20,8 +23,10 @@ const Header = () => {
         </nav>
       </div>
       <div className="header__right">
-        <FaSearch className="header__icon" />
-        <FaUser className="header__icon" />
+        <SearchIcon className="header__icon" />
+        <UserIcon className="header__icon" />
+        <NotificationsIcon className="header__icon" />
+        <ArrowDownIcon className="header__icon" />
       </div>
     </header>
   );

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.75rem 2rem;
+  padding: 0.5rem 0.5rem;
   background-color: #141414;
   color: white;
   position: sticky;
@@ -15,11 +15,12 @@
 }
 
 .header__nav a {
-  margin-left: 5rem;
+  margin-left: 8rem; /* Reduced from 10rem */
   text-decoration: none;
   color: white;
   font-weight: 500;
-  gap : 2rem;
+  padding: 0.1rem;
+
 }
 
 .header__nav a:hover {
